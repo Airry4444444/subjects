@@ -1,0 +1,45 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+td, th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.box1{
+  
+    text-align: left;
+    padding: 8px;
+}
+nav {
+    background-color: #180560; /* สีพื้นหลังของเมนู */
+    padding: 10px 0; /* ระยะห่างภายในเมนู */
+  }
+  
+  nav ul {
+    list-style: none; /* ลบจุดเริ่มต้นของรายการ */
+    margin: 0; /* ลบระยะขอบรอบรายการ */
+    padding: 0; /* ลบระยะห่างรอบรายการ */
+  }
+  
+  nav li {
+    display: inline-block; /* แสดงรายการแบบเรียงตามแนวนอน */
+    margin-right: 10px; /* ระยะห่างระหว่างรายการ */
+  }
+  
+  nav a {
+    text-decoration: none; /* ลบการขีดเส้นใต้ข้อความ */
+    color: #fbfbfb; /* สีข้อความ */
+    padding: 8px 12px; /* ระยะห่างรอบข้อความ */
+  }
+  
+  nav a:hover {
+    background-color: #a3a2f0; /* สีพื้นหลังเมื่อโฮเวอร์ */
+  }
+  

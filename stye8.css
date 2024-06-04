@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+  }
+  .box{
+    width: 450px;
+    background: rgba(212, 202, 235, 0.4);
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: rgb(97, 0, 114);
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .box-img{
+    border-radius: 20%;
+    width: 100px;
+    height: 100px;
+  }
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+  .box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  .box p{
+    text-align: justify;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: rgb(125, 20, 190);
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: #2a06a2;
+  }
+  nav {
+    background-color: #180560; /* สีพื้นหลังของเมนู */
+    padding: 10px 0; /* ระยะห่างภายในเมนู */
+  }
+  
+  nav ul {
+    list-style: none; /* ลบจุดเริ่มต้นของรายการ */
+    margin: 0; /* ลบระยะขอบรอบรายการ */
+    padding: 0; /* ลบระยะห่างรอบรายการ */
+  }
+  
+  nav li {
+    display: inline-block; /* แสดงรายการแบบเรียงตามแนวนอน */
+    margin-right: 10px; /* ระยะห่างระหว่างรายการ */
+  }
+  
+  nav a {
+    text-decoration: none; /* ลบการขีดเส้นใต้ข้อความ */
+    color: #fbfbfb; /* สีข้อความ */
+    padding: 8px 12px; /* ระยะห่างรอบข้อความ */
+  }
+  
+  nav a:hover {
+    background-color: #a3a2f0; /* สีพื้นหลังเมื่อโฮเวอร์ */
+  }
+  
